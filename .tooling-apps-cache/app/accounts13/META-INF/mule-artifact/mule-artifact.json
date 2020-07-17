@@ -1,0 +1,35 @@
+{
+  "configs": [
+    "accounts13.xml",
+    "globalelement.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:accounts13:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "accounts13.xml",
+        "application-types.xml",
+        "config.yaml",
+        "examples/input-1.txt",
+        "examples/input-2.txt",
+        "examples/input-3.txt",
+        "examples/input-4.txt",
+        "examples/input.json",
+        "examples/input.txt",
+        "examples/output.json",
+        "globalelement.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
